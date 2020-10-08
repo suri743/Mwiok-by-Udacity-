@@ -2,11 +2,7 @@ package com.example.miwok;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,7 +17,7 @@ public class Numbers extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true); //To show back button on toolbar
 
