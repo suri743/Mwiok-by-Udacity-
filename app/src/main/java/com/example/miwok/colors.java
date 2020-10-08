@@ -10,5 +10,7 @@ public class colors extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //To show back button on toolbar
     }
 }

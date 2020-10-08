@@ -10,5 +10,7 @@ public class Phrases extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_phrases);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
